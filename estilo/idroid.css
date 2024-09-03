@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@font-face {
+  font-family: idroid;
+  src: url('fontes/idroid.otf'); format: (otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*.menu{
+  width: 30px;
+  height: 20px;
+}*/
+
+/*.menu > nav > a {
+  display: none;
+}*/
+
+/*.menu:hover > nav > a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  padding-top: 0%;
+  transition: 5ms;
+ 
+}*/
+
+/*#listagem{
+  display: inline;
+  width: 45px;
+  height: 43px;
+  margin-left: 0.8em;
+  margin-bottom: 0.7em;
+  
+}*/
+
+.menu{
+  display: inline;
+  margin-bottom: 10px;
+  
+}
+
+header a{
+  color: aliceblue;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  margin-left: 32px;
+ 
+  
+}
+
+header{
+  background-image: linear-gradient(to top, rgb(0, 6, 94), rgb(0, 12, 173), rgb(0, 17, 255));
+  padding-top: 0.5em;
+  margin: -10px -10px 0px -10px;
+  height: 200px;
+  
+}
+
+header > h1{
+  text-align: center;
+  color: aliceblue;
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > h2{
+  text-align: center;
+  color: aliceblue;
+  margin-top: 0;
+  font-size: 0.8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0.8em;
+
+}
+
+
+
+  main{
+    background-color: aliceblue;
+    /*min-width: 320px;*/
+    padding: 20px;
+    border-radius: 1em;
+    margin: auto;
+    max-width:1024px ;
+  }
+
+  main a{
+    color: rgb(2, 111, 184);
+    text-decoration: none;
+    font-style:italic;
+  }
+
+  body{
+    background-color: rgb(206, 225, 241);
+  }
+
+  h2 {
+    font-family: idroid, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+  p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-indent: 16px;
+  }
+  
+  .diferente{
+    text-align: center;
+  }
+
+  .video{
+    background-color: rgb(0, 6, 94) ;
+    padding: 5px;
+    
+    
+  }
+
+  main > #final{
+    background-color: rgb(122, 188, 247);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 1em;
+    
+  }
+    
+  
+
+  .imagem{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+  }
+
+  #video{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(0, 6, 94);
+    border-radius: 1em;
+  }
+
+ .noticia #bugdroid{
+    margin-left: 50%;
+  }
+
+  footer{
+    background-color: rgb(0, 6, 94);
+    color: aliceblue;
+    text-align: center;
+    padding: 8px;
+    margin: -10px -10px -10px -10px;
+  }
+
+  h3{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 12, 173);
+    color: aliceblue;
+    border-radius: 0.8em 0.8em 0em 0em ;
+    margin:15px -10px 0px -10px;
+  }
+
+  #id01{
+    padding-bottom: 10px;
+  }
+
+  main ul{
+    columns: 2;
+    line-height: 20px;
+  }
